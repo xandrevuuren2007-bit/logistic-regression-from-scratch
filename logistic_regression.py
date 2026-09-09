@@ -25,6 +25,8 @@ X = (X - mean) / std
 # Target
 y = df["sex"].to_numpy()
 
+binary = []
+
 # Model params
 w = np.zeros(X.shape[1])
 b = 0
@@ -38,8 +40,6 @@ max_iterations = 1000
 n = X.shape[0]
 epsilon = 1e-15
 loss_history = []
-
-binary = []
 
 for sex in y:
     if sex == "male":
