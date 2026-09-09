@@ -72,7 +72,9 @@ The gradients used are:
 `-mean(y * log(p) + (1 - y) * log(1 - p))`
 
 The predicted probabilities are clipped slightly away from `0` and `1` to prevent numerical issues when calculating logarithms.
+
 For example: 
+
 `log(0)`
 
 ## Technologies
