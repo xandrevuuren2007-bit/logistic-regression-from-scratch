@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load dataset
-df = pd.read_csv("C:/Users/xandr/Desktop/Xandre/Programming/Python projects/penguins.csv")
+df = pd.read_csv("penguins.csv")
 df = df[[
     "bill_length_mm", 
     "bill_depth_mm", 
